@@ -34,7 +34,5 @@ div .section .content {
 }
 
 div .section .content:hover {
-    width:100%;
-    margin-left:0%;
-    margin-right:0%;
+    transform: scale(1.2);
 }
