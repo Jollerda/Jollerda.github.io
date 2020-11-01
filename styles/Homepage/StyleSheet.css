@@ -1,11 +1,4 @@
-﻿.siteHeader {
-    position: sticky;
-    height: 80px;
-    width: 100%;
-    top: 0;
-    z-index:100;
-    background: #343434;
-}
+﻿
 
 .threeParagraph {
     margin-left: 40px;
@@ -35,9 +28,9 @@ div .section .content {
     height:100%;
     border-color: black;
     border: 2px solid;
-    width:80%;
-    margin-left:10%;
-    margin-right:10%;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
     transition: transform .4s ease;
 }
 

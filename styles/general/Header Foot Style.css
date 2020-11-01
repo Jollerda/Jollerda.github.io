@@ -3,6 +3,15 @@
     margin: 0;
 }
 
+.siteHeader {
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background: #343434;
+}
+
 #mainlink {
     position: relative;
     margin-top: 10px;
