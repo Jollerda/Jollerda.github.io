@@ -2,6 +2,15 @@
 
 }
 
+.siteHeader {
+    position: sticky;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    z-index:100;
+    background: #343434;
+}
+
 .threeParagraph {
     margin-left: 40px;
     margin-right: 40px;
@@ -12,7 +21,7 @@
     -webkit-flex-direction: row;
     -webkit-box-pack: center;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 div .section {
@@ -23,17 +32,41 @@ div .section {
     -webkit-box-flex:0;
     padding-left:20px;
     padding-right:20px;
+    margin-bottom:100px;
 }
 
 div .section .content {
     height:100%;
-    background-color:rebeccapurple;
+    border-color: black;
+    border: 2px solid;
     width:80%;
     margin-left:10%;
     margin-right:10%;
-    transition: transform .4s;
+    transition: transform .4s ease;
 }
 
 div .section .content:hover {
     transform: scale(1.2);
+}
+
+div .section .content .moreButton{
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    color: black;
+    padding: 10px 15px;
+    border: 4px solid black;
+    justify-content: center;
+    transition: background-color .2s ease;
+}
+
+div .section .content .moreButton:hover {
+    background-color:black;
+    color:white;
+    z-index:-1;
 }
